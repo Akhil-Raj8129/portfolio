@@ -1,0 +1,404 @@
+* {
+    font-family: calibri;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+.container {
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    background-color: azure;
+    /* height: 2000px; */
+    /* width: 100%; */
+    height: 2300px;
+    border-top: 5px solid red;
+}
+
+.header {
+    width: 1100px;
+    margin-left: 50px;
+
+    display: flex;
+    gap: 30px;
+}
+.article {
+    /* margin-left: 200px; */
+    width: 700px;
+    margin-top: 50px;
+}
+.article p {
+    line-height: 28px;
+}
+.image {
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    width: 180px;
+}
+.img1 {
+    /* width: 200px; */
+    /* height: 250px; */
+    width: 100%;
+}
+.head {
+    /* border: 1px solid red; */
+
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+}
+.name {
+    color: red;
+    margin-top: 10px;
+}
+.row {
+    display: flex;
+    /* margin-left: 200px; */
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 20px;
+}
+.social {
+    /* width: 500px; */
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.social img {
+    margin-right: 20px;
+}
+.img2 {
+    width: 30px;
+
+    height: 20px;
+}
+.img3 {
+    width: 30px;
+
+    height: 23px;
+}
+.img4 {
+    width: 30px;
+    height: 23px;
+}
+.img5 {
+    width: 30px;
+}
+.space {
+    width: 200px;
+}
+.class1 {
+    width: 150px;
+    margin-top: 0px;
+}
+.class2 {
+    width: 120px;
+    /* border: 2px solid yellow; */
+    margin-bottom: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+.activity {
+    /* display: flex; */
+    margin-left: 150px;
+    font-size: small;
+
+    /* gap: 80px; */
+    /* margin-top: 50px; */
+}
+.history {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 150px;
+    /* gap: 50px; */
+    margin-top: 50px;
+    font-size: small;
+}
+.special {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 150px;
+    gap: 80px;
+    margin-top: 50px;
+    font-size: small;
+}
+.work {
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-top: 5px;
+}
+.myspecial {
+    display: flex;
+}
+.word {
+    /* border: 2px solid orange; */
+    margin-left: 40px;
+    margin-right: 70px;
+}
+.word1 {
+    /* border: 2px solid orange; */
+    height: 150px;
+}
+.html {
+    border-bottom: 4px solid red;
+    width: 270px;
+}
+.css {
+    border-bottom: 4px solid red;
+    width: 350px;
+}
+.php {
+    border-bottom: 4px solid red;
+    width: 320px;
+}
+.java {
+    border-bottom: 4px solid red;
+    width: 240px;
+}
+.skills {
+    display: flex;
+    /* margin-left: 200px; */
+}
+
+.photo {
+    border-bottom: 4px solid red;
+    width: 350px;
+}
+.illu {
+    border-bottom: 4px solid red;
+    width: 280px;
+}
+.ske {
+    border-bottom: 4px solid red;
+    width: 250px;
+}
+.mac {
+    border-bottom: 4px solid red;
+    width: 200px;
+}
+.skills {
+    /* width: 1500px; */
+}
+.skill1 {
+    margin-left: 200px;
+}
+.skill2 {
+    position: relative;
+    margin-left: 40px;
+}
+.skill3 {
+    position: relative;
+    margin-left: 140px;
+}
+.skill2-right {
+    position: relative;
+    border-bottom: solid red;
+    width: 300px;
+    margin-top: 15px;
+}
+.skill-4,
+.skill-5 {
+    display: inline;
+}
+.skill-4 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+}
+.per-1 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 270px;
+    top: 0%;
+    right: 0;
+}
+.per-2 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 350px;
+    top: 34%;
+}
+.per-3 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 320px;
+    top: 50%;
+}
+.per-4 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 240px;
+    top: 68%;
+}
+.per-5 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 350px;
+    top: 30%;
+}
+.per-6 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 280px;
+    top: 48%;
+}
+.per-7 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 250px;
+    top: 70%;
+}
+.per-8 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: solid 1px;
+    width: 35px;
+    height: 20px;
+    left: 200px;
+    top: 48%;
+}
+
+.web {
+    margin-left: 150px;
+}
+.work {
+    margin-left: 10px;
+    /* display: flex; */
+}
+.work1 {
+    margin-left: 20px;
+}
+.work2 {
+    margin-left: 220px;
+}
+.edu1 {
+    margin-left: 30px;
+}
+.edu2 {
+    margin-left: 30px;
+}
+.mark {
+    border: 2px solid green;
+    display: flex;
+    width: 1000px;
+    margin-right: 50px;
+}
+.market {
+    border: 2px solid red;
+    margin-right: 10px;
+}
+.market1 {
+    border: 2px solid red;
+    margin-left: 1px;
+}
+.market2 {
+    border: 2px solid red;
+    margin-left: 40px;
+}
+.port {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 60%;
+    margin-left: 50px;
+    /* border: 1px solid green; */
+}
+.port1 {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.scr1 {
+    width: 250px;
+}
+.scr1:hover {
+    position: absolute;
+    top: 1285px;
+    height: 300px;
+    right: 150px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.portfolio {
+    /* border: 2px solid red; */
+    margin-left: 140px;
+}
+.form {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.input {
+    width: 400%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: #eef1ff; */
+}
+
+.last {
+    width: 30%;
+}
+button {
+    width: 25%;
+    background-color: red;
+    color: white;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* creating flux for the work  */
+.flux {
+    display: flex;
+    /* margin-top: 50px;
+   
+
+    border: 1px solid blue; */
+    margin-left: 150px;
+}
+.innerflux {
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin-left: 1px;
+}
+.gap {
+    gap: 30px;
+}
+.workhistory {
+    /* border: 2px solid red; */
+    width: 900px;
+    display: flex;
+    margin-left: 50px;
+}
